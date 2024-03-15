@@ -6,9 +6,16 @@ authors = ["nshian <ianng800@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.11,<3.12"
 langchain = "^0.1.11"
+unstructured = "^0.12.6"
+libmagic = "^1.0"
+python-magic = "^0.4.27"
+python-magic-bin = "^0.4.14"
 
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.3"
 
 [build-system]
 requires = ["poetry-core"]
